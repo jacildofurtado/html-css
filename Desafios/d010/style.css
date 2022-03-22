@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header{
+    color: white;
+    background-image: linear-gradient(to bottom, #39CF7C, #1A5C38);
+    padding-bottom: 5px;
+}
+
+header > h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    margin: 0px;
+    text-align: center;
+}
+
+header > h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin: 30px;
+}
+
+header > nav >a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+
+
+article{
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+article > h1{
+    font-family: 'idroid';
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 10px;
+    color: #1A5C38;
+}
+
+article > h2{
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, #b5e4cab2, #b2dac3, #ffffff);
+    color: #1A5C38;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px;
+}
+
+article > div.video{
+    background-color: #1A5C38;
+    text-align: center;
+    width: 95,2%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside{
+    background-color: #BCE0CC;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.226);
+}
+
+aside > h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #2FA866;
+    color: white;
+    margin-top: 0px;
+    padding-left: 5px;
+}
+
+aside > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px;
+}
+
+aside > p.acesse{
+    padding-bottom: 20px;
+}
+
+p.final{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
